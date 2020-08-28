@@ -1,0 +1,64 @@
+Oppgave 1
+
+# User Stories
+
+**Project:** xxx (Oppgave1)
+
+ADM xxx (Administrator User story Functions)
+
+- ADM 1 (Add  questions to module as Company User.)
+  - Description: xxx (As an Administrator i want to add questions to a module so that the answers an user give will be collected )
+  - Estimate: xxx (0.5 days)
+  - Priority: xxx (80)
+  - Status: xxx (In progress)
+
+- ADM 2 (Add 4 answer options to questions and count the correct answer.)
+  - Description: xxx (As an Administrator i want to add 4 answers to questions related to US1 and the ability of specifying which of the 4 is the correct one )
+  - Estimate: xxx (0.5 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
+- ADM 3 (Add timer to module)
+  - Description: xxx (As an Administrator i want to specify a time limit for the duration of the whole module Eg: 10,20,30Min,1h,2h... )
+  - Estimate: xxx (0.5 days)
+  - Priority: xxx (50)
+  - Status: xxx (Not started)
+
+- ADM 4 (Save Module as Admin)
+  - Description: xxx (As an Administrator i want to be able to save the module as a template for later use)
+  - Estimate: xxx (1 day)
+  - Priority: xxx (70)
+  - Status: xxx (Not started)
+
+- ADM 5 (Send link to Users when Exam is deemed "Active")
+  - Description: xxx (As an Administrator i want a function that sends a link for the Exam to the users has signed up for the specific Course)
+  - Estimate: xxx (2 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
+## xxx (User story Functions)
+
+- US 1 (User Registration)
+  - Description: xxx (As a User i want the ability to register on the website with my E-mail and password)
+  - Estimate: xxx (7 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
+- US 2 (Signup for Courses)
+  - Description: xxx (As a Registered User i want the ability to Sign up on the courses that interest me)
+  - Estimate: xxx (2 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
+- US 3 (Profile page for Users)
+  - Description: xxx (As a Registered User i want the ability add my personal information like Profile Picture, Name and Phone number)
+  - Estimate: xxx (2 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
+- US 4 (Download Certificate)
+  - Description: xxx (As a Registered User i want the ability to download all the Courses i have passed/Not passed in PDF format and have them shown my Profile Page public/Private)
+  - Estimate: xxx (2 days)
+  - Priority: xxx (90)
+  - Status: xxx (Not started)
+
