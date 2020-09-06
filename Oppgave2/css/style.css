@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+
+
+/* Todo-Box */
+
+
+.column {
+  float: left;
+  margin:50px;
+  padding:50px;
+
+
+}
+
+.left, .right {
+  width: 25%;
+  
+ 
+}
+
+.middle {
+  width: 25%;
+  
+
+}
+
+.todo-box{
+    margin-top:114px;
+    margin-left:221px;
+    width: 183px;
+    height: 51px;
+    border: 1px solid #333333;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-box p{
+    font-size:22px;
+    text-align:center;
+    vertical-align: middle;
+    line-height:6px;
+    color: #3a3a3a;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.text-title{
+  text-align: left;
+font: normal normal bold 16px/22px Avenir Next;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+.text-description{
+  text-align: left;
+font: normal normal normal 14px/19px Avenir Next;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+.text-author{
+  font-size:18px;
+  font: normal normal italic 14px/19px Avenir Next;
+  
+}
+
+.complete_todo{
+  text-align: left;
+  
+}
+.trash_todo{
+  text-align:right;
+  float:left;
+}
+
+.lineThrough{
+text-decoration:line-through;
+}
+.item{
+  list-style:none;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 16px #5DD3D829;
+  border-radius: 8px;
+  opacity: 1;
+  padding:50px;
+  min-width:150px;
+  }
+
+
+/* Header navigation */
+  
+  #navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    background-color: #fcfcfc;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    -webkit-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    -moz-box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+    box-shadow: -1px 4px 5px 0px rgba(209, 205, 209, 1);
+  }
+  
+  #logo {
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .logo span {
+    color: #0474bc;
+  }
+  
+  #links {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    font-size:30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #0474bc;
+  }
+
+
+
+  /*------------------- Modal Popup--------------- */
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    box-shadow: #000;
+    border-radius: 10px;
+    width: 15%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Mobile Menu */
+
+
+  .mobile-menu {
+    display: block;
+    list-style-type: none;
+    background-color: #fff;
+    float: right;
+    width: 150px;
+    padding: 5px 0 50px 0;
+    border: 1px solid #eee;
+    z-index: 55;
+  }
+  
+  .mobile-links li {
+    line-height: 2.8rem;
+  }
+  
+  .mobile-btn {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    grid-auto-flow: column;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    font-family: "Open Sans", sans-serif;
+    list-style-type: none;
+  }
+  
+  .nav-list:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  /* Mobile to Tablet  */
+  @media (min-width: 320px) and (max-width: 767px) {
+    #links,
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
+  /* Tablet to Desktop */
+  @media (min-width: 768px) {
+    .mobile-menu,
+    .mobile-btn,
+    .fa-bars {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
