@@ -1,0 +1,38 @@
+{
+  "name": "verktoy",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "main.js",
+  "scripts": {
+    "parcel": "parcel index.html",
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tigrane1992/Webapps.git"
+  },
+  "author": "Mattia Lerario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tigrane1992/Webapps/issues"
+  },
+  "homepage": "https://github.com/Tigrane1992/Webapps#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.26.10"
+  },
+  "keywords": []
+}
